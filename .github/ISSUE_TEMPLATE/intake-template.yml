@@ -6,15 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out this intake template. Please include as much information below in order to ensure the intake + prioritization of this request is appropriate.
+        Thank you for taking the time to fill out this issue template. Please include as much information below in order to ensure the intake and prioritization of this request is appropriate.
         Do not add or remove the `engineering` or `needs-triage` labels on the right-side of this issue.
   - type: textarea
     id: background
     attributes:
       label: Problem Statement
-      description: Please provide a description of the problem you are trying to solve
-      placeholder: Tell us what you want help digging into
-      value: "Included relevant background information as if we know nothing about the project/product/area. Include hyperlinks as appropriate to repositories, DataDog Dashboards, Word Documents, etc. Relevant history as to how we got here is also appreciated."
+      description: Please provide a summary of the problem you are trying to solve, as if we know nothing about the project/product/area. Include hyperlinks as appropriate to repositories, DataDog Dashboards, Word Documents, etc. Relevant history as to how we got here is also appreciated. 
+      placeholder: Included relevant background information
     validations:
       required: true
   - type: textarea
