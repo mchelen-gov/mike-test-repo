@@ -13,7 +13,7 @@ body:
     attributes:
       label: Problem Statement
       description: Please provide a summary of the problem you are trying to solve, as if describing it to someone who knows nothing about the project or subject area. Include hyperlinks as appropriate to repositories, DataDog Dashboards, Word Documents, etc. Relevant history as to how we got here is also appreciated. 
-      placeholder: When loading form 1234-B, an unpredictable error is occurring. How can we investigate this issue to find and resolve the problem?
+      placeholder: When loading form 1234-B, an unpredictable error is occurring. How might we investigate this issue to find and resolve the problem?
     validations:
       required: true
   - type: textarea
