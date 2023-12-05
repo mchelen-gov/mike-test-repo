@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out this intake template. Do not add or remove the `engineering` or `needs-triage` labels on the right-side of this issue. \n\n Please include as much information below in order to ensure the intake + prioritization of this request is appropriate.
+        Thank you for taking the time to fill out this intake template.
+        Do not add or remove the `engineering` or `needs-triage` labels on the right-side of this issue.
+        Please include as much information below in order to ensure the intake + prioritization of this request is appropriate.
   - type: textarea
     id: background
     attributes:
