@@ -9,19 +9,11 @@ body:
         Thank you for taking the time to fill out this issue template. Please include as much information below in order to ensure the intake and prioritization of this request is appropriate.
         Do not add or remove the `engineering` or `needs-triage` labels on the right-side of this issue.
   - type: textarea
-    id: background
+    id: problem-statement
     attributes:
       label: Problem Statement
-      description: Please provide a summary of the problem you are trying to solve, as if we know nothing about the project/product/area. Include hyperlinks as appropriate to repositories, DataDog Dashboards, Word Documents, etc. Relevant history as to how we got here is also appreciated. 
-      placeholder: Included relevant background information
-    validations:
-      required: true
-  - type: textarea
-    id: problem-to-solve
-    attributes:
-      label: Problem You're Trying To Solve
-      description: Please provide a description of the problem you are trying to solve, including _why_ you think this is a problem.
-      placeholder: 
+      description: Please provide a summary of the problem you are trying to solve, as if describing it to someone who knows nothing about the project or subject area. Include hyperlinks as appropriate to repositories, DataDog Dashboards, Word Documents, etc. Relevant history as to how we got here is also appreciated. 
+      placeholder: When loading form 1234-B, an unpredictable error is occurring. How can we investigate this issue to find and resolve the problem?
     validations:
       required: true
   - type: textarea
@@ -29,12 +21,12 @@ body:
     attributes:
       label: Impact
       description: What would be achieved by addressing this issue, or what would happen if it is not done? Please include a quantitative or qualititative description.
-      placeholder: VFS team will be blocked from fixing bug affecting 1000 VA.gov users per day.
+      placeholder: VFS team are unable to fix a bug that affects 1000 VA.gov users per day.
     validations:
       required: true
   - type: textarea
     id: stakeholders
     attributes:
       label: Stakeholders
-      placeholder: Who cares about the outcome of this issue? Put their GitHub Username (or full name) below.
-      value: "Optional - @github-username1, @OCTOcoder12"
+      description: Who cares about the outcome of this issue? Put their GitHub Username (or full name) below.
+      placeholder: "@github-username1, @OCTOcoder12, Leia Organa, Daffy Duck"
